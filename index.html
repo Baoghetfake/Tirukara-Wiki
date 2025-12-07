@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Diệt Quỷ | Bách Khoa Toàn Thư</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f8f9fa; color: #202122; }
+        #header { background-color: #f0f0f0; padding: 10px 20px; border-bottom: 1px solid #a7d7f9; display: flex; justify-content: space-between; align-items: center; }
+        #logo { font-size: 1.8em; font-weight: bold; color: #0645ad; }
+        #search-bar input[type="text"] { padding: 8px; width: 350px; border: 1px solid #aaa; border-radius: 3px; }
+        #search-bar button { padding: 8px 15px; background-color: #f8f9fa; border: 1px solid #a7d7f9; cursor: pointer; }
+        #main-container { display: flex; padding-top: 10px; max-width: 1200px; margin: auto; }
+        #sidebar { width: 200px; padding: 10px; border-right: 1px solid #ccc; background-color: #ffffff; height: fit-content; }
+        #sidebar h3 { color: #000; border-bottom: 1px solid #a7d7f9; padding-bottom: 5px; }
+        #sidebar a { display: block; margin-bottom: 5px; text-decoration: none; color: #0645ad; font-size: 0.9em; }
+        #content { flex-grow: 1; padding: 10px 30px; background-color: #ffffff; }
+        .wiki-section h2 { border-bottom: 2px solid #a7d7f9; padding-bottom: 5px; color: #000; }
+        .featured-link { font-size: 1.1em; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <div id="logo">Diệt Quỷ Wiki</div>
+        <div id="search-bar">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button>🔍</button>
+        </div>
+        <nav>
+            <a href="#">Đăng nhập</a> | <a href="#">Cộng tác</a>
+        </nav>
+    </header>
+
+    <div id="main-container">
+        <aside id="sidebar">
+            <h3>Điều hướng</h3>
+            <a href="index.html">Trang Chủ</a>
+            <a href="tirukara.html" class="featured-link">Shasuki Tirukara</a>
+            <a href="#">Hơi thở Nước</a>
+            <a href="#">Các Trụ cột</a>
+            
+            <h3>Cộng đồng</h3>
+            <a href="#">Thảo luận</a>
+            <a href="#">Thay đổi gần đây</a>
+        </aside>
+
+        <main id="content">
+            <h1>Chào mừng đến với Bách Khoa Toàn Thư Diệt Quỷ Đoàn</h1>
+            <p>Nguồn kiến thức tổng hợp về các nhân vật, Hơi thở và lịch sử của Diệt Quỷ Đoàn.</p>
+            
+            <section class="wiki-section">
+                <h2>⚔️ Bài viết Nổi bật</h2>
+                <p>Bài viết tuần này tập trung vào một kiếm sĩ trẻ tuổi đầy tiềm năng, người đã tự phát triển một loại Hơi thở mới từ nỗi đau và mất mát của mình:</p>
+                <p class="featured-link">👉 <a href="tirukara.html">Shasuki Tirukara - Người Sáng Tạo Hơi Thở Ánh Nguyệt</a></p>
+            </section>
+            
+            <section class="wiki-section">
+                <h2>🔥 Tin tức & Cập nhật</h2>
+                <ul>
+                    <li>Viêm Trụ Senjuro Rengoku tiến hành kiểm tra tân binh.</li>
+                    <li>Thông tin về quỷ cấp cao tại Vùng Đất Rừng Sương.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
