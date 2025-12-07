@@ -4,11 +4,11 @@
 body { 
     font-family: 'Times New Roman', serif;
     margin: 0; 
-    background-color: #0d1a1a; /* Nền tối gần như đen */
-    color: #e0fafa; /* Chữ màu trắng ngọc */
+    background-color: #0d1a1a; 
+    color: #e0fafa;
 }
 a {
-    color: #00bfa5; /* Màu xanh ngọc sáng cho liên kết */
+    color: #00bfa5;
     text-decoration: none;
 }
 a:hover {
@@ -16,119 +16,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ------------------------------------- */
-/* Header & Thanh Tìm kiếm */
-/* ------------------------------------- */
-#header { 
-    background-color: #003333; 
-    padding: 12px 20px; 
-    border-bottom: 2px solid #00bfa5; 
-    display: flex; justify-content: space-between; align-items: center; 
-}
-#logo { 
-    font-family: 'Arial Black', Gadget, sans-serif;
-    font-size: 2em; 
-    font-weight: 900; 
-    color: #00bfa5; 
-    text-shadow: 1px 1px 2px #000;
-}
-#search-bar input[type="text"] { 
-    padding: 8px; 
-    width: 300px; 
-    border: 1px solid #00bfa5;
-    background-color: #1a3a3a;
-    color: #e0fafa;
-}
-#search-bar button { 
-    padding: 8px 15px; 
-    background-color: #00bfa5; 
-    border: none;
-    color: #0d1a1a;
-    font-weight: bold;
-    cursor: pointer; 
-}
+/* ... (Tất cả mã CSS còn lại bạn đã thấy trước đó) ... */
 
-/* ------------------------------------- */
-/* Main Content & Sidebar */
-/* ------------------------------------- */
-#main-container { 
-    display: flex; 
-    padding-top: 20px; 
-    max-width: 1200px; 
-    margin: auto; 
-}
-#sidebar { 
-    width: 220px; 
-    padding: 10px; 
-    border-right: 1px solid #005c5c; 
-    background-color: #1a3a3a; 
-    height: fit-content;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-}
-#sidebar h3 { 
-    color: #e0fafa; 
-    border-bottom: 2px solid #00bfa5; 
-    padding-bottom: 5px; 
-}
-#content { 
-    flex-grow: 1; 
-    padding: 10px 30px; 
-    background-color: #112626; 
-}
-
-/* ------------------------------------- */
-/* Tiêu đề nội dung */
-/* ------------------------------------- */
-h1 { 
-    border-bottom: 3px solid #00bfa5; 
-    padding-bottom: 5px; 
-    color: #e0fafa;
-}
-h2 { 
-    border-bottom: 1px solid #00bfa5; 
-    padding-bottom: 3px; 
-    margin-top: 2em; 
-    color: #00bfa5;
-    font-size: 1.5em;
-}
-
-/* ------------------------------------- */
-/* Infobox và Mục lục (TOC) */
-/* ------------------------------------- */
-.infobox { 
-    float: right; 
-    margin: 0 0 1em 1em; 
-    border: 2px solid #00bfa5; 
-    background-color: #0d1a1a; 
-    padding: 0.8em; 
-    width: 280px; 
-    font-size: 0.9em; 
-    clear: right; 
-}
-.infobox th { 
-    text-align: center; 
-    background-color: #005c5c; 
-    padding: 0.5em; 
-    color: #e0fafa;
-    font-size: 1.1em;
-}
-.infobox td { 
-    padding: 0.5em; 
-    border-top: 1px solid #005c5c; 
-    color: #e0fafa;
-}
-.toc { 
-    border: 1px solid #00bfa5; 
-    background-color: #0d1a1a; 
-    padding: 15px; 
-    width: 300px; 
-    margin-bottom: 1em; 
-}
-.toc b { color: #00bfa5; }
-
-/* ------------------------------------- */
 /* Footer & Bản quyền */
-/* ------------------------------------- */
 #footer {
     clear: both;
     padding: 20px;
